@@ -1,5 +1,12 @@
 let studyCount = document.getElementById("study-count");
+let studyButton = document.getElementById("study-btn");
 let breakCount = document.getElementById("break-count");
+let breakButton = document.getElementById("break-btn");
+
+const minutes = document.getElementById("minutes");
+const seconds = document.getElementById("seconds");
+
+
 
 let studyTime = parseInt(document.getElementById("study-time").innerHTML)
 
