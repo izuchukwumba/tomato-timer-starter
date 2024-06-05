@@ -8,12 +8,12 @@
     <div class="container">
         <h1>🍅 Tomato Timer ⏰</h1>
         <div id="timer-display">
-            <span id="time-left">25:00</span>
+            <span id="time-left-minutes">25</span><span>:</span><span id="time-left-seconds">00</span>
         </div>
         <div id="buttons">
-            <button id="study-btn">Study</button>
-            <button id="break-btn">Break</button>
-            <button id="start-stop-btn" style="display: none;">Start/Stop</button>
+            <button id="study-btn" onclick="study_sessions()">Study</button>
+            <button id="break-btn" onclick="break_sessions()">Break</button>
+            <button id="start-stop-btn" style="display: block;">Start/Stop</button>
         </div>
         <div id="session-count">
             <p>Study Sessions: <span id="study-count">0</span></p>
@@ -24,5 +24,6 @@
             <button id="dark-theme">Dark</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
